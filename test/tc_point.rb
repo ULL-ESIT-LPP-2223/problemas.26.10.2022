@@ -27,4 +27,8 @@ class TestPoint < Test::Unit::TestCase
     assert_equal(-1, opuesto.y)
     assert_equal("(-1,-1)", opuesto.to_s)
   end
+
+  def test_simple_suma
+    assert_equal("(1,1)", (@origen+@unidad).to_s)
+  end
 end
