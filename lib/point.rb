@@ -12,4 +12,7 @@ class Point
   def -@
     Point.new(@x * -1 , @y * -1)
   end
+  def + (otro)
+    Point.new(@x + otro.x, @y + otro.y)
+  end
 end
