@@ -7,5 +7,5 @@ end
 
 desc "Ejecutar solo las pruebas simples"
 task :simple do
-  sh "ruby -I. test/tc_point.rb /simple/"
+  sh "ruby -I. test/tc_point.rb --name /simple/"
 end
