@@ -1,15 +1,11 @@
 # Tema 3: Programación Orientada a objetos.
-## Pruebas Unitarias  
 
-  * Definición de la clase Punto
-  * Prueba con una afirmación para comprobar el correcto funcionamiento
+## Desarrollo de la clase para representar un punto en los ejes cartesianos
 
-  * Definición del producto por un escalar 
-  * Prueba con una afirmación para comprobar el correcto funcionamiento
+## Mediante Pruebas Unitarias (Test Unit)  
 
-  * Definición del opuesto
-  * Prueba con una afirmación para comprobar el correcto funcionamiento
+   Rama ut
 
-  * Definición de la suma
-  * Prueba con una afirmación para comprobar el correcto funcionamiento
+## Mediante Desarrollo Dirigido por Pruebas (Test Driven Development - TDD) 
 
+   Rama tdd
