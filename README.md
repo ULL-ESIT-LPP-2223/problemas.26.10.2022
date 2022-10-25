@@ -1,11 +1,25 @@
 # Tema 3: Programación Orientada a objetos.
 
-## Desarrollo de la clase para representar un punto en los ejes cartesianos
+## Desarrollo Dirigido por Pruebas (Test Driven Development - TDD) 
 
-## Mediante Pruebas Unitarias (Test Unit)  
+  * Expectativa para comprobar que existe una clase Punto #FALLO 
+  * Creación de la clase Punto
+  * Expectativa para comprobar que existe una clase Punto #FUNCIONA 
 
-   Rama ut
+  * Expectativa para comprobar la operación de producto escalar #FALLO 
+  * Definición del producto por un escalar 
+  * Expectativa para comprobar la operación de producto escalar #FUNCIONA 
 
-## Mediante Desarrollo Dirigido por Pruebas (Test Driven Development - TDD) 
+  * Expectativa para comprobar la operación de opuesto #FALLO 
+  * Definición del opuesto
+  * Expectativa para comprobar la operación de opuesto #FUNCIONA
 
-   Rama tdd
+  * Expectativa para comprobar la operación de suma #FALLO 
+  * Definición de la suma
+  * Expectativa para comprobar la operación de suma  #FUNCIONA
+
+## Herramienta RSpec 
+
+1. Intalar la gema Rspec (gem install rspec)
+
+2. Ejecutar rspec --init (se crean el fichero .rspec, el directorio spec/ y el fichero spec/spec_helper.rb)
