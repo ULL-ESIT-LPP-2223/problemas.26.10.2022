@@ -36,5 +36,14 @@ describe Punto do
         expect(p2.y).to eq(-1)
       end
     end
+    context "Suma de puntos" do
+       it "Al sumar el origen y la unidad da la unidad" do
+         expect((Punto.new(0,0) + Punto.new(1,1)).x).to eq(1)
+         expect((Punto.new(0,0) + Punto.new(1,1)).y).to eq(1)
+       end
+       it "Al sumar el origen y la unidad da la unidad - to_s" do
+         expect((Punto.new(0,0) + Punto.new(1,1)).to_s).to eq("(1,1)")
+       end
+    end
   end # Métodos de instancia
 end # describe Punto

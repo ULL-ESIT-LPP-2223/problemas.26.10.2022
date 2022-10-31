@@ -12,4 +12,7 @@ class Punto
   def -@
     Punto.new(-@x, -@y)
   end
+  def + (otro)
+    Punto.new(@x + otro.x, @y + otro.y)
+  end
 end
