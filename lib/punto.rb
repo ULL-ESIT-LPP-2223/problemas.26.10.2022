@@ -9,4 +9,7 @@ class Punto
   def * (valor)
     Punto.new(@x * valor, @y* valor)
   end
+  def -@
+    Punto.new(-@x, -@y)
+  end
 end

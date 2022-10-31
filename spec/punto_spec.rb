@@ -29,5 +29,12 @@ describe Punto do
         expect(p2.y).to eq(-1)
       end
     end
-  end
-end
+    context "Opuesto a un Punto" do
+      it "la coordenada x y la coordenada y se multiplican por menos uno" do
+        p2 = - Punto.new(1,1) 
+        expect(p2.x).to eq(-1)
+        expect(p2.y).to eq(-1)
+      end
+    end
+  end # Métodos de instancia
+end # describe Punto
